@@ -1,0 +1,55 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    font-family: seigo UI;
+}
+
+.container{
+    width:80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: grey; */
+    margin-left: 10%;
+    
+}
+
+.padd{
+    padding: 20px;
+
+}
+
+.header{
+    width : 100%;
+    /* height:50px ; */
+    /* background-color : red; */
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.cards{
+     width: 100%;
+     /* height: 240px;      */
+     /* background-color: lightgray; */
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+}
+    
+.card{
+    height : 100px;
+    width : 17%;
+    background-color: darkorange;
+    margin-top: 20px;
+    background-size: cover;
+}
+
+.overlay{
+    height: 100px;
+    width:100%;
+    background-color: burlywood;
+}
+
+.opened{
+    display:none;
+}
